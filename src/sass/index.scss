@@ -1,2 +1,18 @@
 @import './common';
 @import './example';
+
+#ua, #en {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    margin: 20px;
+    background-color: #ffcccb;
+    border: 2px solid #ff9999;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#ua:hover, #en:hover {
+    background-color: #ff9999;
+    border-color: #ff6666;
+}
