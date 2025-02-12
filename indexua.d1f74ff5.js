@@ -1,0 +1,2 @@
+var t=function(t){return Math.floor(Math.random()*t)},n=0,r={x:t(400),y:t(400)};$("#map").click((function(t){n++;var a=function(t,n){var r=t.offsetX-n.x,a=t.offsetY-n.y;return Math.sqrt(r*r+a*a)}(t,r),f=function(t){return t<10?"Надзвичайно гаряче!":t<20?"Справді гаряче":t<40?"Гаряче":t<80?"Тепло":t<160?"Холодно":t<320?"Справді холодно":"Замерзаємо!"}(a);$("#distance").text(f),a<8&&alert("Знайшов скарб за "+n+" кліків!")}));
+//# sourceMappingURL=indexua.d1f74ff5.js.map

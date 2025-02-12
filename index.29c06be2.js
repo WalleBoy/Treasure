@@ -1,0 +1,2 @@
+!function(){var t=function(t){return Math.floor(Math.random()*t)},n=0,r={x:t(400),y:t(400)};$("#map").click((function(t){n++;var o=function(t,n){var r=t.offsetX-n.x,o=t.offsetY-n.y;return Math.sqrt(r*r+o*o)}(t,r),e=function(t){return t<10?"Boiling hot!":t<20?"Really hot":t<40?"Hot":t<80?"Warm":t<160?"Cold":t<320?"Really cold":"Freezing!"}(o);$("#distance").text(e),o<8&&alert("Find the treasure in "+n+" clicks!")}))}();
+//# sourceMappingURL=index.29c06be2.js.map
