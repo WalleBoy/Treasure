@@ -1,5 +1,9 @@
 @import './common';
-@import './example';
+
+#box {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #ua, #en {
     font-size: 1.5rem;
